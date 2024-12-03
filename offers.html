@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SREE</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+    <link rel="stylesheet" href="./static/coupon.css">
+    <link rel="icon" href="C:\Users\DELL\Downloads\web\web\sree.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <!-- SCROLL TOP BUTTON -->
+  <a class="scrollToTop" href="#"></a>
+  <!-- END SCROLL TOP BUTTON -->
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="./index1.html">
+              <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vectors%2Fnew-arrival-logo-vectors&psig=AOvVaw2sZvrh555vB1B0mSgdmTzD&ust=1733300854449000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOC194aXi4oDFQAAAAAdAAAAABAE" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+                  <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="./offers.html">Offers</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="./contactus.html">Contact us</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="login.html">Login</a>
+                      </li>        
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="./about.html">About us</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="faq.html">FAQ</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Category
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
+                              <li><a class="dropdown-item" href="./books.html">Books</a></li>
+                              <li>
+                                  <hr class="dropdown-divider">
+                              </li>
+
+                              <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="cart.html">My Cart</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-dark" type="submit">Search</button>
+                  </form>
+          </div>
+      </div>
+  </nav>
+</section>
+
+    <section class="deals" id="deals">
+        <img class= "disc-img" src="data:image/jpeg;base64,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"/>
+        <h2 id="heading">Deals Of The Day</h2>
+
+        
+        <section id="labels" class="deals">
+          
+          <div class="container">
+          
+          <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                  <div class="dl">
+                    <div class="brand">
+                        <h2>SHOP</h2>
+                       
+                    </div>
+                    <div class="discount alizarin">upto 30%
+                        <div class="type">off</div>
+                    </div>
+                    <div class="descr">
+                        <strong>Get Upto 30% off.</strong> 
+                        On Shopping of Rs. 5000 and above!
+                    </div>
+                    <div class="ends">
+                        <small>* Conditions and restrictions apply.</small>
+                    </div>
+                   
+                        <a data-toggle="collapse" href="#code-1" class="open-code">Avail Now!</a>
+                        <div id="code-1" class="collapse code">LV5MAY14</div>
+                    
+                  </div>
+                </div>
+               
+                <div class="col-sm-6 col-lg-4">
+                  <div  class="dl">
+                    <div class="brand">
+                        <h2>Esaver</h2>
+                    </div>
+                    <div class="discount emerald">
+                        upto 65%
+                        <div class="type">
+                            off
+                        </div>
+                    </div>
+                    <div class="descr">
+                        <strong>
+                          Ranging From 10% to 65%
+                        </strong> 
+                        Mega discount on all Electronic Appliances.
+                    </div>
+                    <div class="ends">
+                        <small>
+                           * Conditions and restrictions apply.
+                        </small>
+                    </div>
+                    
+                        <a data-toggle="collapse" href="#code-2" class="open-code">Avail Now!</a>
+                        <div id="code-2" class="collapse in code">
+                            MNO123ST
+                        </div>
+                  
+                  </div>
+                </div>
+               
+                <div class="col-sm-6 col-lg-4">
+                  <div  class="dl">
+                    <div class="brand">
+                        <h2>
+                            DISNEY
+                        </h2>
+                    </div>
+                    <div class="discount peter-river">
+                        PAID TRIP
+                        <div class="type">
+                            To DisneyLand
+                        </div>
+                    </div>
+                    <div class="descr">
+                        <strong>
+                          Win A Trip To Disney Land HongKong!
+                        </strong> 
+                        On Shopping of Rs. 10000
+                        
+                    </div>
+                    <div class="ends">
+                        <small>
+                           * Conditions and restrictions apply.
+                        </small>
+                    </div>
+                    
+                        <a data-toggle="collapse" href="#code-3" class="open-code">Avail Now!</a>
+                        <div id="code-3" class="collapse code">
+                            OLV4SY3R
+                        </div>
+                  </div>
+                </div>
+                
+          
+        
+            
+            <div class="col-sm-6 col-lg-4">
+              <div  class="dl">
+                <div class="brand">
+                    <h2>
+                        BRAND
+                    </h2>
+                </div>
+                <div class="discount amethyst">
+                    upto 65%
+                    <div class="type">
+                        off
+                    </div>
+                </div>
+                <div class="descr">
+                    <strong>
+                      Get Upto 65% Off 
+                    </strong> 
+                    On Shopping products from Selected Brands! 
+                </div>
+                <div class="ends">
+                    <small>
+                       * Conditions and restrictions apply.
+                    </small>
+                </div>
+               
+                    <a data-toggle="collapse" href="#code-4" class="open-code">Avail Now!</a>
+                    <div id="code-4" class="collapse code">
+                        ZUY4OPLQ
+                    </div>
+              </div>
+            </div>
+           
+            <div class="col-sm-6 col-lg-4">
+              <div  class="dl">
+                <div class="brand">
+                    <h2>
+                        DAIRY
+                    </h2>
+                </div>
+                <div class="discount peter-river">
+                Flat 20%
+                    <div class="type">
+                        off
+                    </div>
+                </div>
+                <div class="descr">
+                    <strong>
+                         Get Flat 20% off!
+                    </strong> 
+                    On shopping of all dairy products above Rs. 400!
+                </div>
+                <div class="ends">
+                    <small>
+                       * Conditions and restrictions apply.
+                    </small>
+                </div>
+                
+                    <a data-toggle="collapse" href="#code-3" class="open-code">Avail Now!</a>
+                    <div id="code-3" class="collapse code">
+                        OLV4SY3R
+                    </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+    </section>
+    <footer class="bg-dark text-white pt-5 pb-4" style="font-size: 18px;">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Get to know us</h5>
+            <p>
+              <a href="./about.html" class="text-white" style="text-decoration: none;">About us</a>
+            </p>
+            <p>
+              <a href="./career.html" class="text-white" style="text-decoration: none;">Careers</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+            </p>
+            <p>
+              <a href="./cares.html" class="text-white" style="text-decoration: none;">Sree cares</a>
+            </p>
+            <p>
+              <a href="./Partner Stores.html" class="text-white" style="text-decoration: none;">Our Partners</a>
+            </p>
+          </div>
+          <div class="col mt-3"  style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Let us help you</h5>
+              <p>
+                <a href="./paypolicy.html" class="text-white" style="text-decoration: none;">Payments</a>
+              </p>
+              <p>
+                <a href="./shippolicy.html" class="text-white" style="text-decoration: none;">Shipping</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+              </p>
+              <p>
+                <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+              </p>
+          </div>
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Policy</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+              </p>
+              <p>
+                <a href="./privacy.html" class="text-white" style="text-decoration: none;">Privacy</a>
+              </p>
+          </div>
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Make money with us</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Sell on Sree</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+              </p>
+              <p>
+                <a href="./Partner Stores.html" class="text-white" style="text-decoration: none;">Become our partner</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+              </p>
+          </div>
+          <div class="col mt-3" style="color:#808080;">
+            <div>
+              <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Connect with us</h5>
+              <p>
+                <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-facebook-square"></i>
+                  Facebook
+                </a>
+              </p>
+              <p>
+                <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-twitter-square"></i>
+                  Twitter
+                </a>
+              </p>
+              <p>
+                <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-instagram-square"></i>
+                  Instagram
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+          <div class="text-center">
+            Copyright &copy; and &reg; Since 2022 Under Sree.com | Sreeja Vedururu
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id = "btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        var countDownDate1 = new Date("July 19, 2021 00:00:00").getTime();
+        var countDownDate2 = new Date("July 26, 2021 00:00:00").getTime();
+        var countDownDate3 = new Date("August 12, 2021 00:00:00").getTime();
+        var countDownDate4 = new Date("August 2, 2021 00:00:00").getTime();
+        var countDownDate5 = new Date("September 12, 2021 00:00:00").getTime();
+        var countDownDate6 = new Date("October 12, 2021 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the time left between now and the count down date
+            var timeleft1 = countDownDate1 - now;
+            var timeleft2 = countDownDate2 - now;
+            var timeleft3 = countDownDate3 - now;
+            var timeleft4 = countDownDate4 - now;
+            var timeleft5 = countDownDate5 - now;
+            var timeleft6 = countDownDate6 - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days1 = Math.floor(timeleft1 / (1000 * 60 * 60 * 24));
+            var hours1 = Math.floor((timeleft1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes1 = Math.floor((timeleft1 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds1 = Math.floor((timeleft1 % (1000 * 60)) / 1000);
+
+            var days2 = Math.floor(timeleft2 / (1000 * 60 * 60 * 24));
+            var hours2 = Math.floor((timeleft2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes2 = Math.floor((timeleft2 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds2 = Math.floor((timeleft2 % (1000 * 60)) / 1000);
+
+            var days3 = Math.floor(timeleft3 / (1000 * 60 * 60 * 24));
+            var hours3 = Math.floor((timeleft3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes3 = Math.floor((timeleft3 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds3 = Math.floor((timeleft3 % (1000 * 60)) / 1000);
+
+            var days4 = Math.floor(timeleft4 / (1000 * 60 * 60 * 24));
+            var hours4 = Math.floor((timeleft4 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes4 = Math.floor((timeleft4 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds4 = Math.floor((timeleft4 % (1000 * 60)) / 1000);
+
+            var days5 = Math.floor(timeleft5 / (1000 * 60 * 60 * 24));
+            var hours5 = Math.floor((timeleft5 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes5 = Math.floor((timeleft5 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds5 = Math.floor((timeleft5 % (1000 * 60)) / 1000);
+
+            var days6 = Math.floor(timeleft6 / (1000 * 60 * 60 * 24));
+            var hours6 = Math.floor((timeleft6 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes6 = Math.floor((timeleft6 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds6 = Math.floor((timeleft6 % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("timer1").innerHTML = days1 + "d " + hours1 + "h "
+                + minutes1 + "m " + seconds1 + "s ";
+            document.getElementById("timer2").innerHTML = days2 + "d " + hours2 + "h "
+                + minutes2 + "m " + seconds2 + "s ";
+            document.getElementById("timer3").innerHTML = days3 + "d " + hours3 + "h "
+                + minutes3 + "m " + seconds3 + "s ";
+            document.getElementById("timer4").innerHTML = days4 + "d " + hours4 + "h "
+                + minutes4 + "m " + seconds4 + "s ";
+            document.getElementById("timer5").innerHTML = days5 + "d " + hours5 + "h "
+                + minutes5 + "m " + seconds5 + "s ";
+            document.getElementById("timer6").innerHTML = days6 + "d " + hours6 + "h "
+                + minutes6 + "m " + seconds6 + "s ";
+
+            // If the count down is finished, write some text
+            if (timeleft1 < 0) {
+                clearInterval(x);
+                document.getElementById("timer1").innerHTML = "EXPIRED";
+            }
+            if (timeleft2 < 0) {
+                clearInterval(x);
+                document.getElementById("timer2").innerHTML = "EXPIRED";
+            }
+            if (timeleft3 < 0) {
+                clearInterval(x);
+                document.getElementById("timer3").innerHTML = "EXPIRED";
+            }
+            if (timeleft4 < 0) {
+                clearInterval(x);
+                document.getElementById("timer4").innerHTML = "EXPIRED";
+            }
+            if (timeleft5 < 0) {
+                clearInterval(x);
+                document.getElementById("timer5").innerHTML = "EXPIRED";
+            }
+            if (timeleft6 < 0) {
+                clearInterval(x);
+                document.getElementById("timer6").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+        btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        }
+        );
+    </script>
+    
+</body>
+
+</html>
